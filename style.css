@@ -85,7 +85,10 @@ table img{
 
 .container {
   margin: 0 auto;
-  background-color: #284F61;
+  background: #284F61;
+  background: -webkit-linear-gradient(to right, #284F61, #203A43, #0F2027);
+  background: linear-gradient(to right, #284F61, #203A43, #0F2027);
+
   left: 0;
   right: 0;
   top: 0;
@@ -153,7 +156,7 @@ table img{
 
 table {
 
-  width:800px;
+  width:900px;
   margin: 0 auto;
 }
 
@@ -174,6 +177,14 @@ table {
   padding-left: 15px;
   margin-top: 10px;
 }
+
+.intro p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  padding: 5px;
+
+}
+
 
 /*position:absolute;
   left:0;
