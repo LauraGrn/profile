@@ -88,7 +88,6 @@ table img{
   background: #284F61;
   background: -webkit-linear-gradient(to right, #284F61, #203A43, #0F2027);
   background: linear-gradient(to right, #284F61, #203A43, #0F2027);
-
   left: 0;
   right: 0;
   top: 0;
@@ -183,6 +182,14 @@ table {
   font-weight: 200;
   padding: 5px;
 
+}
+
+.divider{
+  background-color: black;
+  opacity: 0.4;
+  margin-left: 20px;
+  box-sizing: content-box;
+  display: inline;
 }
 
 
